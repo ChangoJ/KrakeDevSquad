@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.textInfo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+.boxInfo{
+    padding: 4px;
+    width: 35%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+.button{
+    margin-left: 30px;
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aqua;
+}

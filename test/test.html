@@ -6,18 +6,19 @@
     <title>Test
     </title>
     <script src="test.js"></script>
+    <link href="estilos.css" rel="stylesheet">
     <script src="serviciosTest.js"></script>
 </head>
 <body>
-    <h2>Ingresa tu nombre</h2>
-    <input type="text" id="txtNombre">
-    <h2>Ingresa tu apellido</h2>
-    <input type="text" id="txtApellido">
+    <h2 class="textInfo">Ingresa tu nombre</h2>
+    <input type="text" class="boxInfo" id="txtNombre">
+    <h2 class="textInfo">Ingresa tu apellido</h2>
+    <input type="text" class="boxInfo" id="txtApellido">
     <br><br>
     <div>
-        <h4 id="lblResultado"></h4>
+        <h4 id="lblResultado" class="textInfo"></h4>
     </div>
 
-    <input type="button" value="Saludar" onclick="saludar();">
+    <input class="button" type="button" value="Saludar" onclick="saludar();">
 </body>
 </html>
